@@ -22,8 +22,8 @@ define([
 
         var config = view.model.get("_componentAnimate");
 
-        if (!config.start) return;
-        view.$el.velocity(config.start, { duration: 0 });
+        if (!config._start) return;
+        view.$el.velocity(config._start, { duration: 0 });
     }
 
     Adapt.on('componentView:postRender', function(view) {
@@ -38,8 +38,8 @@ define([
 
     function onscreen(view, event, measurements) {
         var config = view.model.get("_componentAnimate");
-        config.startHeight = config.startHeight || 50;
-        if (measurements.percentFromTop > config.startHeight) return;
+        config._startHeight = config._startHeight || 50;
+        if (measurements.percentFromTop > config._startHeight) return;
         animateView(view);
     }
 
@@ -48,15 +48,15 @@ define([
         var config = view.model.get("_componentAnimate");
         view.$el.off("onscreen", view._animateOnscreen);
 
-        config.options = config.options || {};
+        config._options = config._options || {};
 
-        config.options.begin = function() {
+        config._options.begin = function() {
             view.$el.css({
                 "visibility": "visible"
             });
         };
 
-        view.$el.velocity(config.command, config.options);
+        view.$el.velocity(config._command, config._options);
 
     }
 
