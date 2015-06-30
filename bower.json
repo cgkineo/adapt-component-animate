@@ -1,0 +1,19 @@
+{
+  "name": "adapt-component-animate",
+  "version": "2.0.0",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/cgkineo/adapt-component-animate",
+  "authors": [
+
+  ],
+  "displayName" : "Component Animate",
+  "extension" : "componentanimate",
+  "description": "An extension which provides a basic feedback overlay for question components",
+  "main": "/js/adapt-component-animate.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_componentAnimate"
+}

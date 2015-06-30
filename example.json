@@ -1,0 +1,13 @@
+"_componentAnimate": {
+  "startHeight": 60,
+  "start": {
+      "position":"relative",
+      "left": "-100%"
+    },
+  "command": {
+      "left": 0
+    },
+  "options": {
+    "duration": 1500
+  }
+},
