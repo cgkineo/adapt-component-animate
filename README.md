@@ -6,7 +6,7 @@ A basic component animation extension
 
 Uses [velocityjs](http://julian.com/research/velocity/#fade)
 
-```json
+```
 "_componentAnimate": {
   "_startHeight": 60,   //percentage from top of the window at which to start the animation
   "_start": {       // velocity command for the componentView:preRender
