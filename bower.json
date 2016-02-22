@@ -1,19 +1,18 @@
 {
-  "name": "adapt-component-animate",
-  "version": "2.0.0",
-  "framework": "^2.0.0",
-  "homepage": "https://github.com/cgkineo/adapt-component-animate",
-  "authors": [
-
-  ],
-  "displayName" : "Component Animate",
-  "extension" : "componentanimate",
-  "description": "An extension which provides a basic feedback overlay for question components",
-  "main": "/js/adapt-component-animate.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-extension"
-  ],
-  "license": "GPLv3",
-  "targetAttribute": "_componentAnimate"
+    "name": "adapt-component-animate",
+    "repository": "git://github.com/cgkineo/adapt-component-animate",
+    "framework": "^2.0.0",
+    "version": "2.0.0",
+    "homepage": "https://github.com/cgkineo/adapt-component-animate",
+    "issues": "https://github.com/cgkineo/adapt-component-animate/issues/",
+    "displayName": "Component Animate",
+    "extension": "component-animate",
+    "description": "A basic component animation extension",
+    "main": "/js/adapt-component-animate.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_componentAnimate"
 }
